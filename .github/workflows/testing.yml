@@ -28,7 +28,7 @@ jobs:
       # Runs a single command using the runners shell
       - name: Run a one-line script
         run: php -v
-        name: Appeler composer
+      - name: Appeler composer
         run: composer -v
 
       # Runs a set of commands using the runners shell
